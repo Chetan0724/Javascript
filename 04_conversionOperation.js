@@ -1,4 +1,3 @@
-/*
 let scoreOne = 33
 console.log(typeof scoreOne); // number
 console.log(typeof(scoreOne)); // number
@@ -67,7 +66,7 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber); // 33
 console.log(typeof stringNumber); // string
-*/
+
 
 // *****Operations*****
 
