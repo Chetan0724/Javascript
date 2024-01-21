@@ -87,6 +87,7 @@ let str2 = " chetan"
 let str3 = str1 + str2
 console.log(str3)
 
+// not recom
 console.log("1" + 2); // 12
 console.log(1 + "2"); // 12
 console.log("1" + "2"); // 12
