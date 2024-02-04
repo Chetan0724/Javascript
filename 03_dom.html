@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM THREE</title>
+</head>
+
+<body style="background-color: gray; color: yellow;">
+
+</body>
+<script>
+    // const div = document.createElement('h1')
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    // div.id = "myId"
+    div.id = Math.round(Math.random() * 10 + 1)
+
+    div.setAttribute("title", "generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+
+    // div.innerText = "chetan"
+    const addText = document.createTextNode("chetan")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+</script>
+</html>
