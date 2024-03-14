@@ -3,6 +3,8 @@ const repoCount = 8
 
 console.log(name + repoCount + " Value"); // Not recom
 
+console.log("Hello my name is " + name + " and my repo count is " + repoCount);
+
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); // recom
 
 const gameName = new String('chetan-yadav-indore')
