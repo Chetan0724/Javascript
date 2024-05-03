@@ -87,10 +87,10 @@ let str2 = " chetan"
 let str3 = str1 + str2
 console.log(str3)
 
+console.log("1" + "2"); // 12
 // not recom
 console.log("1" + 2); // 12
 console.log(1 + "2"); // 12
-console.log("1" + "2"); // 12
 console.log("1" + 2 + 2); // 122
 console.log(1 + 2 + "2"); // 32
 
