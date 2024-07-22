@@ -25,6 +25,10 @@ const a = new Number("123");
 const c = new Number(123)
 console.log(a == c)
 console.log(a === c)
+console.log(a);
+console.log(c);
+console.log(typeof a);
+console.log(typeof c);
 
 let isLoggedInOne = " "
 let booleanIsLoggedInOne = Boolean(isLoggedInOne)
@@ -45,10 +49,12 @@ console.log(null == null)
 
 let myDate = Date()
 console.log(myDate);
+console.log(typeof myDate);
 // console.log(myDate.toDateString());
 // *myDate.toDateString is not a function*
 
 let myCreatedDateTwo = Date(2023, 0, 23)
 console.log(myCreatedDateTwo);
+console.log(typeof myCreatedDateTwo)
 // console.log(myCreatedDateTwo.toDateString());
 // *myCreatedDateTwo.toDateString is not a function*
